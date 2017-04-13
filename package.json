@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node test.js",
     "start":"node index.js",
-    "weineel": "node weineel.js"
+    "weineel": "node weineel.js",
+    "june":"node june.js"
   },
   "repository": {
     "type": "git",
