@@ -1,0 +1,24 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "git learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weinee/gitTest.git"
+  },
+  "keywords": [
+    "git",
+    "test"
+  ],
+  "author": "june",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weinee/gitTest/issues"
+  },
+  "homepage": "https://github.com/weinee/gitTest#readme"
+}
