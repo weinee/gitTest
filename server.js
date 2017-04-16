@@ -8,7 +8,7 @@ server.connection({
     host: 'localhost', 
     port: 8000 
 });
-
+require('./src/june')(server);
 // Add the route
 server.route({
     method: 'GET',
