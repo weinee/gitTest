@@ -8,13 +8,19 @@ server.connection({
     host: 'localhost', 
     port: 8000 
 });
+<<<<<<< HEAD
 require('./src/june')(server);
+=======
+
+var weineelFunc = require('./src/weineel');
+weineelFunc(server);
+
+>>>>>>> fbcffa83588583d2a15472111868f09cc499b737
 // Add the route
 server.route({
     method: 'GET',
     path:'/hello', 
     handler: function (request, reply) {
-
         return reply('hello world  22');
     }
 });
