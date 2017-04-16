@@ -4,10 +4,26 @@
 <title> hpme page </title>
 
 <body>
-    <label> title </label> <%= title%>
-    <p> home page </p>
+    
+    <label id="title"> title </label> <%= title%>
+    <p class="pp"> home page </p>
 
     <script src="/assets/js/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript"> 
+        $(function(){
+            var $title = $('#title');
+            $title.html('title 11');
+
+            $.ajax({
+                type: 'get',
+                url: '/weineel/myname?p=ee&p2=ww',
+                success: function (e) {
+                    $('.pp').html(e);
+                }
+            })
+        });
+    </script>
 
 </body>
 
