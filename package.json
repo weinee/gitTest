@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "start":"node index.js",
+    "start": "node index.js",
     "weineel": "node weineel.js",
-    "june":"node june.js"
+    "june": "node june.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/weinee/gitTest/issues"
   },
-  "homepage": "https://github.com/weinee/gitTest#readme"
+  "homepage": "https://github.com/weinee/gitTest#readme",
+  "dependencies": {
+    "hapi": "16.1.1"
+  },"devDependencies":
+  {"babel":"6.23.0"}
+  }
 }
