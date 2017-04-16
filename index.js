@@ -1,6 +1,1 @@
-console.log(__dirname);
-
-
-console.log('fixes bugs');
-
-
+require('./server');
