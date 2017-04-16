@@ -33,6 +33,21 @@ require('./src/june')(server);
 var weineelFunc = require('./src/weineel');
 weineelFunc(server);
 
+
+// 静态文件 inert
+server.route({
+    method: 'GET',
+    path: '/assets/{param*}',
+    handler: {
+        directory: {
+            path: join(__dirname, 'assets'), // 文件路径
+            redirectToSlash: true,
+            index: true
+        }
+    }
+});
+
+
 server.route({
     method: 'GET',
     path:'/hello', 

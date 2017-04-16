@@ -4,7 +4,9 @@ module.exports = function (server) {
         method: 'GET',
         path:'/weineel/home', 
         handler: function (request, reply) {
-            return reply.view('weineel/home');
+            return reply.view('weineel/home', {
+                title: 'weineel title'
+            });
         }
     });
 
