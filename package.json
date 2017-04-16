@@ -24,9 +24,12 @@
   },
   "homepage": "https://github.com/weinee/gitTest#readme",
   "dependencies": {
-    "hapi": "16.1.1"
-
-  },"devDependencies":
-  {"babel":"6.23.0"}
-  
+    "ejs": "^2.5.6",
+    "hapi": "16.1.1",
+    "inert": "^4.2.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel": "6.23.0"
+  }
 }

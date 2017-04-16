@@ -2,7 +2,7 @@
 module.exports = function (server) {
     server.route({
         method: 'GET',
-        path:'/myname', 
+        path:'/weineel/myname', 
         handler: function (request, reply) {
             return reply('weineel');
         }
@@ -10,7 +10,7 @@ module.exports = function (server) {
 
     server.route({
         method: 'POST',
-        path:'/myname', 
+        path:'/weineel/myname', 
         handler: function (request, reply) {
             return reply('post weineel');
         }
