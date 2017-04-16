@@ -9,12 +9,14 @@ server.connection({
     port: 8000 
 });
 
+var weineelFunc = require('./src/weineel');
+weineelFunc(server);
+
 // Add the route
 server.route({
     method: 'GET',
     path:'/hello', 
     handler: function (request, reply) {
-
         return reply('hello world  22');
     }
 });
